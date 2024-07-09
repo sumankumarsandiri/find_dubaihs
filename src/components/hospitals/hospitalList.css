@@ -1,0 +1,48 @@
+.hospitallist_containerr {
+  display: flex;
+  border: 2px solid #aab7b8;
+  padding: 10px;
+  width: 100%; /* Change width to 100% */
+  max-width: 400px; /* Set a maximum width */
+  border-radius: 20px;
+  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.hospitallist_text {
+  margin-left: 30px;
+}
+
+.hospitallist_image-1 {
+  border-radius: 20px;
+  width: 375px; /* Set image width to 100% */
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  .hospitallist_containerr {
+    max-width: 1200px; /* Adjust maximum width for larger screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .hospitallist_containerr {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .hospitallist_text {
+    margin-left: 0; /* Remove left margin on smaller screens */
+    margin-top: 20px; /* Add top margin */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .hospitallist_containerr .hospitallist_image-1 {
+    margin-bottom: 20px; /* Add bottom margin to images */
+  }
+}
+
+.hospitallist_names {
+  color: black;
+}

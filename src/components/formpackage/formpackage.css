@@ -1,0 +1,103 @@
+/* formpackage.css */
+
+.f {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .misc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .ml {
+    margin-left: 15px;
+  }
+  
+  .ml1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .form-container {
+    padding: 20px;
+    /* background-color: #d8d6d6; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  #subscribe{
+  cursor: pointer;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group-checkbox {
+    margin-top: 15px;
+  }
+  
+  .form-group-checkbox label {
+    font-weight: normal;
+  }
+  
+  .form-group-checkbox input {
+    margin-right: 10px;
+  }
+  
+  #fm {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #fm:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .misc {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .ml1 {
+      margin-top: 10px;
+    }
+  
+    .row .form-group {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+  .fn {
+    color: rgb(4, 133, 246);
+  }
+  .s{
+    width: 100px;
+    background-color: rgb(2, 109, 72);
+  }

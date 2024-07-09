@@ -1,0 +1,20 @@
+.ic1{
+    margin-left: 10px;
+}
+.ic{
+    margin-top: 10px;
+}
+.ko{
+    color: rgb(241, 10, 180);
+    cursor: pointer;
+}
+.this{
+ 
+    background-color:white;
+    border-radius: 15px;
+}
+.offerCard{
+    cursor: pointer;
+    background-color: rgb(229, 235, 235);
+    border-radius: 10px;
+}

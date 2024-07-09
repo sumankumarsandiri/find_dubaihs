@@ -1,0 +1,185 @@
+/* Base styles */
+.villa {
+    /* width: 100%;
+    height: 500px;
+    border-radius: 10px; */
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 1000px;
+}
+
+
+.villa_main_container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.villa_ratings {
+    font-size: 1.2em;
+    margin-left: 550px; /* Changed from a fixed margin to auto */
+    text-align: right; /* Align text to the right */
+}
+
+.villa_timings {
+    color: rgb(203, 17, 117);
+}
+
+.tabs_form_container {
+    width: 800px;
+    
+}
+
+.bawarchi_form_inputs {
+    width: 100%;
+}
+
+.menu-item-list {
+    list-style-type: none;
+}
+
+.villa-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.villa-search-button {
+    background: #40E0D0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover {
+    background: #35b9b9;
+}
+
+.children_main_container {
+    margin-top: 15px;
+}
+
+
+.rainbow_hospital_ratings {
+    color: white;
+    padding: 3px;
+    margin-left: auto; /* Changed from a fixed margin to auto */
+    text-align: right; /* Align text to the right */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    color: black;
+    padding: .75rem 2.5rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    list-style: none;
+    border: none;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: rgb(239, 35, 127);
+    left: 0;
+}
+
+.menu-item-list:hover {
+    color: black;
+}
+
+button:focus ~ .dropdown-menu {
+    display: block;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .villa_main_container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .tabs_form_container {
+        width: 100%;
+    }
+
+    .villa_ratings,
+    .rainbow_hospital_ratings {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .biryani1 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .villa {
+        height: 300px;
+    }
+
+    .villa-search-button {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .villa_main_container,
+    .tabs_form_container,
+    .bawarchi_form_inputs {
+        padding: 10px;
+    }
+
+    .dropdown-toggle {
+        padding: .5rem 1.5rem;
+    }
+
+    /* .villa_ratings, */
+    .rainbow_hospital_ratings {
+        font-size: 1em;
+    }
+
+    .villa-form {
+        gap: 5px;
+    }
+
+    .villa-form {
+        padding: 8px;
+        width: 100%;
+    }
+
+    .villa-search-button {
+        width: 70px;
+        height: 35px;
+    }
+    .villa {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Make image responsive */
+        margin-left: 0; /* Remove left margin for smaller screens */
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .villa_ratings {
+        /* font-size: 1.2em; */
+        margin-left: 50px; 
+        /* text-align: right; */
+    }
+}

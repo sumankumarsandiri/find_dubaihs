@@ -1,0 +1,117 @@
+.hosdisplay_container {
+  margin-top: 15px;
+}
+.hosdisplay_1 {
+  /* width: 1000px;
+      height: 500px; */
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.hosdisplay_ratings {
+  /* border: 1px solid ; */
+  /* background-color: green; */
+  color: white;
+  padding: 3px;
+  /* border-radius: 5px ; */
+  margin-left: 620px;
+}
+.hosdisplay_timings {
+  color: rgb(203, 17, 117);
+}
+.hospital_dropdown {
+  position: relative;
+  /* width: 1000px; */
+}
+.hospital_dropdown-toggle {
+  color: black;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.hospital_dropdown-menu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  list-style: none;
+  border: none;
+}
+.menu-item:hover {
+  cursor: pointer;
+  color: rgb(239, 35, 127);
+  left: 0;
+}
+.menu-item-list_hsp:hover {
+  color: black;
+}
+button:focus ~ .dropdown-menu {
+  display: block;
+}
+.hospital_form_inputs {
+  width: 400px;
+}
+.hosdisplay_form_container {
+  width: 800px;
+}
+
+/* Styles for small screens (Mobile) */
+@media (max-width: 576px) {
+  .hosdisplay_container {
+    margin-left: 10px; /* Adjust margin for smaller screens */
+    padding: 10px;
+  }
+
+  .hosdisplay_1 {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Make image responsive */
+    margin-left: 0; /* Remove left margin for smaller screens */
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .hosdisplay_ratings {
+    margin-left: 40px; /* Adjust margin for smaller screens */
+  }
+
+  .hsptl_dropdown-toggle {
+    padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  /* .dropdown-menu { */
+    /* top: 100%; Adjust dropdown menu position */
+    /* left: -10px; Adjust dropdown menu position */
+    /* width: calc(100% + 20px); Make dropdown menu wider */
+  /* } */
+  .hospital_form_inputs {
+    margin-top: 10px;
+  }
+  .hosdisplay_form_container {
+    width: 80%;
+  }
+}
+
+/* Styles for medium screens (Tablet) */
+@media (min-width: 577px) and (max-width: 992px) {
+  .hosdisplay_container {
+    margin-left: 50px; /* Adjust margin for medium screens */
+  }
+
+  .hosdisplay_1 {
+    width: 80%; /* Adjust image width for medium screens */
+    margin-left: 50px; /* Adjust image margin for medium screens */
+  }
+}
+
+/* Styles for large screens (Desktop) */
+@media (min-width: 993px) {
+  .hosdisplay_container {
+    margin-left: 302px; /* Adjust margin for larger screens */
+  }
+
+  .hosdisplay_1 {
+    width: 1000px; /* Adjust image width for larger screens */
+    margin-left: 300px; /* Adjust image margin for larger screens */
+  }
+}

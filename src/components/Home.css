@@ -1,0 +1,11 @@
+.home-page{
+    background-image: url('/src/assets/images/Login\ FD.png'); /* Update this path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    display: flex; /* Center content vertically and horizontally if needed */
+    justify-content: center;
+    align-items: center;
+}

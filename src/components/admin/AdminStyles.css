@@ -1,0 +1,289 @@
+/* side navbar css */
+.sidebar_container{
+    min-height: 100vh;
+    background-color: #c9e6ea45;
+}
+
+.sidenavbar_logo{
+    width: 80px;
+}
+
+
+
+.sidebar_brand{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.list_container:hover{
+    background-color: rgb(209, 204, 198);
+}
+
+.side_link_style{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.side_link_style:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.side_link_content:hover{
+    text-decoration: none;
+}
+
+.icon_span{
+    padding-right: 5px;
+}
+
+.nav_icon{
+    font-size: 25px;
+}
+.icon_name{
+    font-size: 20px;
+}
+
+
+/* admin services css */
+.search_container{
+    width: 35%;
+    border: 1px solid gray;
+    background: transparent;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.search_input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.search_btn{
+    border: none;
+    background-color: transparent;
+}
+
+.search_icon{
+    font-size: 20px;
+}
+
+
+/* services display css */
+
+
+.title{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.category{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.phone{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.location{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.services_and_category_edit_btn{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 80px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: rgb(17, 224, 224);
+    color: black;
+    border-radius: 5px;
+    transition: 1s linear;
+}
+.services_and_category_edit_btn:hover{
+    color: black;
+}
+
+.services_and_category_delete_btn{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 80px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: rgb(17, 224, 224);
+    color: black;
+    border-radius: 5px;
+    transition: 1s linear;
+}
+.services_and_category_delete_btn:hover{
+    color: black;
+}
+
+.table_heading{
+    font-size: 17px;
+}
+.table_body{
+    font-size: 16px;
+}
+
+.mobile_col{
+    width: 200px;
+}
+
+.location_col{
+    width: 450px;
+}
+
+/* pagination */
+
+
+
+/* Add services css */
+.add_service_btn{
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 200px;
+    padding: 5px;
+    font-weight: 700;
+    color: rgb(17, 224, 224);
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 224, 224);
+    transition: 1s linear;
+}
+
+.add_service_btn:hover{
+    color: rgb(17, 224, 224);
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.input-container{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.add_label{
+    font-size: 19px;
+    width: 15%;
+}
+
+.add_input{
+    width: 60%;
+    border: 0.5px solid rgb(141, 139, 139);
+    box-shadow: 0px 0px 4px gray;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.add_input:focus{
+    border: 2px solid lightblue;
+    outline: 2px solid lightblue;
+}
+
+.services_modal_save_btn{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: rgb(17, 224, 224);
+    color: white;
+    border-radius: 5px;
+    transition: 1s linear;
+}
+
+.services_modal_close_btn{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: rgb(185, 15, 15);
+    color: white;
+    border-radius: 5px;
+    transition: 1s linear;
+}
+
+
+
+
+
+
+
+/* Add category styles */
+.category_heading{
+    color: rgb(17, 224, 224);
+}
+
+.addcategory_submit_btn{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: rgb(17, 224, 224);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 224, 224);
+    transition: 1s linear;
+}
+
+.category_image{
+    width: 80px;
+}
+
+.edit_model{
+    background-color: red;
+}
+
+
+/* media queries */
+@media (max-width: 768px){
+    .search_container{
+        width: 60%;
+    }
+    .search_input{
+        width: 80%;
+        font-size: 14px;
+    }
+    .addservice_btn{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .category_input_container{
+        width: 75%;
+    }
+    .inputs_style{
+        font-size: 10px;
+    }
+    .save_btn{
+        font-size: 16px;
+        padding: 5px 20px;
+    }
+    
+    /* table */
+    th, td{
+        font-size: 14px;
+    }
+    .edit_btn{
+        font-size: 10px;
+        padding: 3px;
+        width: 50px;
+    }
+    /* category */
+    .category_heading{
+        font-size: 18px;
+    }
+
+}

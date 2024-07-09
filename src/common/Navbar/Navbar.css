@@ -1,0 +1,368 @@
+/* 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar-container {
+    position: relative;
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.scrolled{
+    background-color: rgb(52, 51, 51) !important;
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.fd-logo {
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+    
+}
+
+.fonts {
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.nav-links {
+    display: none;
+    justify-content: center;
+}
+
+
+
+.nav-Link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none !important;
+    margin: 0 1rem;
+}
+
+
+.navbar-profile {
+    display: none;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.navbar-profile-pic {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.nav-profile-link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none !important;
+}
+.nav-profile-link:hover{
+    color: #27d0d0 !important;
+}
+
+.hamburger {
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+
+    right: -50%; 
+
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    overflow-x: hidden;
+
+    transition: 0.3s;
+
+    z-index: 1000;
+}
+
+.sidebar.open {
+
+    right: 0;
+
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+.sidebar li {
+    padding: 1rem;
+    text-align: center;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+
+    color: white;
+
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+}
+
+
+@media (min-width: 768px) {
+
+    .nav-links {
+        display: flex;
+    }
+
+
+    .navbar-profile {
+        display: flex;
+
+
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+
+    .fonts {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .fonts {
+        display: none;
+    }
+}
+ */
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-container.scrolled .navbar {
+    background-color: white;
+    color: black;
+}
+
+.navbar-container.scrolled .nav-Link, 
+.navbar-container.scrolled .navbar-profile-pic,
+.navbar-container.scrolled .nav-profile-link {
+    color: black;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.fd-logo {
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.fonts {
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+}
+
+.nav-links {
+    display: none;
+    justify-content: center;
+}
+
+.nav-Link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none !important;
+    margin: 0 1rem;
+}
+
+.navbar-profile {
+    display: none;
+    align-items: center;
+    /* margin-right: 300px; */
+}
+
+.navbar-profile-pic {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.nav-profile-link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.nav-profile-link:hover {
+    color: #27d0d0 !important;
+}
+
+.hamburger {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -50%;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+.sidebar li {
+    padding: 1rem;
+    text-align: center;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .navbar-profile {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .fonts {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .fonts {
+        display: none;
+    }
+}

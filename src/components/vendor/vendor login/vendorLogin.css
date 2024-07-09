@@ -1,0 +1,92 @@
+
+.login_heading{
+    color: rgb(17, 224, 224);
+}
+
+.forgot_link{
+    color: rgb(243, 79, 4);
+}
+
+.login_link{
+    text-decoration: none;
+    color: rgb(243, 79, 4);
+}
+
+.login_btn{
+    background-color: rgb(17, 224, 224);
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: black;
+}
+.login_btn:hover{
+    box-shadow: 0px 0px 5px rgb(17, 224, 224);
+    color: white;
+}
+
+.login_link:hover{
+    text-decoration: none;
+    color: rgb(243, 79, 4);
+}
+
+.login_btn{
+    background-color: rgb(17, 224, 224);
+    color: white;
+}
+
+.signup_link{
+    color: rgb(243, 79, 4);
+    font-weight: 500;
+}
+.signup_link:hover{
+    color:  rgb(243, 79, 4);
+    text-decoration: none;
+}
+
+.or_login_content{
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+    position: relative;
+    text-align: center;
+}
+.or_login_content::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35%;
+    border: 1px solid gray;
+}
+.or_login_content::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 35%;
+    border: 1px solid gray;
+}
+
+
+/* media queries */
+@media (max-width: 768px){
+    .signup_image{
+        height: 500px;
+    }
+    .or_login_content::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 25%;
+        border: 1px solid gray;
+    }
+    .or_login_content::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 25%;
+        border: 1px solid gray;
+    }
+      
+}

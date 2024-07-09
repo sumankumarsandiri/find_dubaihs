@@ -1,0 +1,96 @@
+/* packages.css */
+
+.f {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-top: 140px;
+  margin-left: 30px;
+}
+
+.bread {
+  /* width: 100%; */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.bread:hover {
+  transform: scale(1.05);
+}
+
+.he {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  /* text-align: center; */
+  margin-right: 20px;
+}
+
+.p1 {
+  /* text-align: center; */
+  color: #555;
+  margin-right: 20px;
+}
+
+.itemCard__ftr {
+  margin-top: 10px;
+}
+
+.carousel .carousel-item {
+  height: 520px;
+}
+
+.carousel .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel .carousel-item {
+    height: 200px;
+  }
+
+  .carousel .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .he {
+    font-size: 1em;
+  }
+
+  .p1 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel .carousel-item {
+    height: 150px;
+  }
+
+  .carousel .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .he {
+    font-size: 0.9em;
+  }
+
+  .p1 {
+    font-size: 0.8em;
+  }
+}
+.kk:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+/* .International-conatianer{
+  width:90%;
+  } */
+.container-fluid {
+  width: 98%;
+}

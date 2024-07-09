@@ -1,0 +1,181 @@
+/* body {
+    background-color: gainsboro;
+} */
+
+.button-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.company-logo {
+    /* max-width: 100%;
+    min-height: 30%; */
+    width: 1200px;
+    height: 300px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.nav-btn-container h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.custom-btn {
+    background-color: #40E0D0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.custom-btn:hover {
+    background-color: #003f8a;
+}
+
+.job-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+}
+
+.job-detail {
+    flex: 1 1 45%; /* Adjust for flexibility */
+    text-align: center;
+    margin: 10px 0;
+}
+
+.job-response {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.response {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spacer {
+    width: 10px; /* Adjust this value for the desired spacing */
+    display: inline-block;
+}
+
+/* h5, p, ul {
+    margin-left: 20px;
+} */
+
+.details-skilss{
+    margin-left: 20px;
+}
+.details-data1{
+    margin-left: 20px;
+}
+
+.deatils-data {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .custom-btn {
+        margin-left: 0;
+    }
+    .job-details {
+        flex-direction: column;
+    }
+    .job-detail {
+        width: 100%;
+        text-align: left;
+    }
+    .response {
+        flex-direction: column;
+    }
+    .spacer {
+        width: 0;
+        height: 10px; /* Add vertical space for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .job-details {
+        padding: 5px;
+    }
+    .job-detail {
+        padding: 10px 0;
+    }
+    .details-heading{
+        font-size: 1.2em;
+    }
+   
+    .details-skilss{
+        margin-left:10px;
+    }
+    .details-data1{
+        margin-left: 10px;
+    }
+    
+    .deatils-data {
+        
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-container {
+        padding: 10px;
+    }
+    .job-details {
+        padding: 5px;
+    }
+    .details-heading{
+        font-size: 1em;
+    }
+    .custom-btn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .details-skilss{
+        margin-left:5px;
+    }
+    .details-data1{
+        margin-left: 5px;
+    }
+    
+    .deatils-data {
+        
+        margin-left: 5px;
+    }
+    .response {
+        font-size: 0.9em;
+    }
+    .company-logo {
+        /* max-width: 100%;
+        min-height: 30%; */
+        width: 450px;
+        height: 200px;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+

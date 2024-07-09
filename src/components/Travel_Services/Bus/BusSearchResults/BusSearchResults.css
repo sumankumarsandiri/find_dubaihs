@@ -1,0 +1,20 @@
+/* src/components/SearchResults.css */
+.search-results {
+    padding: 20px;
+}
+
+.results-header {
+    background-color: rgb(64, 56, 77);
+    padding: 70px;
+    color: white;
+}
+
+.bus-list {
+    margin: 20px;
+}
+
+.bus-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}

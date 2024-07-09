@@ -1,0 +1,181 @@
+.homepage {
+    position: relative;
+    width: 100%;
+    height: 980px;
+    background: url('../../../../assets/images/carmainbg.webp') no-repeat center center/cover;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.top-section {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.top-section h2 {
+    font-size: 24px;
+
+}
+
+.top-section h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.reserve-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reserve-btn:hover {
+    background-color: #0056b3;
+}
+
+.bottom-section {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    padding: 60px 0;
+    background: white;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #F7A838;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form input,
+form select,
+form button {
+    width: 18%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.find-car-btn {
+    width: 100%;
+    height: 71%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.find-car-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* about us   */
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff;
+    margin-left: 39px;
+}
+
+.about-us-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.about-us h1 {
+    color: #F7A838;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-us h3 {
+    color: #172457;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.about-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us ul li {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.about-us-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us-content {
+        max-width: 100%;
+    }
+
+    .about-us h2,
+    .about-us h3 {
+        text-align: center;
+    }
+
+    .about-us-image {
+        padding: 20px 0;
+    }
+}

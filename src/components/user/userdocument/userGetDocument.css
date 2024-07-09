@@ -1,0 +1,117 @@
+/* .form_heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.table_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user_table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.user_table th, .user_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table_head {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.user_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.user_table tr:hover {
+    background-color: #ddd;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: auto;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
+
+.centered_button {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .user_table, .user_table th, .user_table td {
+        display: block;
+        width: 100%;
+    }
+
+    .user_table tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .user_table th, .user_table td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 15px;
+    }
+
+    .user_table th::before {
+        content: attr(data-label);
+        flex-basis: 40%;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .user_table td::before {
+        content: attr(data-label);
+        flex-basis: 40%;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .centered_button {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .user_table {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+ */
+
+
+ .form_heading{
+    margin-top: 100px;
+ }
+ .btn-danger{
+    width: auto;
+ }

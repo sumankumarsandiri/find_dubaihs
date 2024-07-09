@@ -1,0 +1,254 @@
+.footer {
+    
+    background-image: url('../../assets/images/Footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    position: relative; /* Changed from fixed */
+    margin-top: auto; /* Ensures it sticks to the bottom */
+    z-index: 700;
+    overflow-y: auto;
+}
+
+.footer-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 140px;
+}
+.beauty{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap; /* Ensures no wrapping */
+    position: relative;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 0 0 110px; /* Ensures the logo doesn't shrink */
+}
+
+.footer-logo img {
+    height: 100px;
+    width: auto; /* Maintains aspect ratio */
+    
+}
+
+.footer-column {
+    margin: 5px;
+    flex: 1;
+    min-width: 180px;
+    position: relative;
+    margin-left: 5%; /* Removes extra left margin */
+}
+
+.footer-column h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #00ffff;
+}
+
+.column-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px 10px;
+}
+
+.column-list li {
+    font-size: 13px;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #555;
+}
+
+.vertical-line1 {
+    left: 115%;
+}
+
+.vertical-line2 {
+    left: 115%;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap; /* Ensures no wrapping */
+    margin-top: 20px;
+}
+
+.search-fun {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 2; /* Allows it to grow */
+}
+
+.search-text {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #00ffff;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.search-description {
+    margin-bottom: 10px;
+    font-size: 12px;
+    max-width: 400px;
+}
+
+.highlight {
+    color: #00ffff;
+}
+
+.search-bar {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+.app-links,
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 1; /* Allows it to grow */
+    text-align: center; /* Centers the text and images */
+    margin-top: 40px; /* Moves it down */
+}
+
+.app-text {
+    margin-bottom: 5px;
+    color: #00ffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.app-links img {
+    height: 35px;
+    margin: 5px;
+}
+
+.social-text {
+    margin-bottom: 5px;
+    color: #00ffff;
+    font-size: 13px;
+    font-family: bold;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    font-size: 20px;
+    line-height: 40px; /* Center the icon vertically */
+    border-radius: 50%; /* Make it a circle */
+    text-align: center;
+    color: white; /* Icon color */
+}
+
+.social-media .linkedin {
+    background-color: #0077b5;
+}
+
+.social-media .twitter {
+    background-color: #1da1f2;
+}
+
+.social-media .facebook {
+    background-color: #4267b2;
+}
+
+.social-media .google-plus {
+    background-color: #db4437;
+}
+
+.social-media .youtube {
+    background-color: #ff0000;
+}
+
+
+.footer-line {
+    border: 0;
+    height: 1px;
+    background: #555;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-top,
+    .footer-middle {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .footer-column,
+    .search-fun,
+    .app-links,
+    .social-media {
+        margin: 10px 0;
+    }
+
+    .column-list {
+        grid-template-columns: 1fr;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .footer-column,
+    .search-fun,
+    .app-links {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-logo img {
+        height: 100px;
+        width: auto;
+    }
+
+    .app-links,
+    .social-media {
+        margin-top: 20px; /* Adjust for smaller screens */
+    }
+}

@@ -1,0 +1,51 @@
+/* .restaurent_container {
+  width: 100%;
+} */
+
+.hospital_images {
+  height: 600px;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .hospital_images {
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.hospital-slider-container {
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+.hospital_title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .hospital-slider-container {
+    width: 65%;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .hospital_title {
+    text-align: center;
+    /* margin-top: -150px; */
+    margin-top: 30px;
+  }
+}
+.hoscarousel {
+  width: 100%;
+  height: 50vh;
+}
+.hoscarousel01 {
+  height: 50vh;
+}
+.hoscarouselimage {
+  height: 50vh;
+}
+.hoscarousel02 {
+  height: 50vh;
+}

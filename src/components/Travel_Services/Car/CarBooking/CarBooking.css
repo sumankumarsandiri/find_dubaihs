@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+.Car {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Car {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f9fc;
+}
+
+.car-booking-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="Pickup Date"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.car-image {
+    flex: 1;
+    text-align: center;
+}
+
+.car-image img {
+    max-width: 100%;
+    height: 460px;
+}
+
+
+.find-car-btn {
+    width: 100%;
+    /* height: 10  %; */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.find-car-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+@media (max-width: 768px) {
+    .car-booking-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-container,
+    .car-image {
+        margin: 0;
+        width: 100%;
+    }
+}

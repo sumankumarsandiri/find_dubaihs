@@ -1,0 +1,33 @@
+
+  
+  .collapse-menu-icon {
+    color: black;
+  }
+  
+  .collapse-drawer-container {
+    width: 250px;
+    padding-top: 1rem;
+  }
+  
+  .collapse-close-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+  
+  .collapse-drawer-list {
+    
+    border: 1px solid #ccc;
+    
+  }
+  
+  .collapse-drawer-list .MuiListItem-root {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .collapse-drawer-list .MuiListItem-root:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  

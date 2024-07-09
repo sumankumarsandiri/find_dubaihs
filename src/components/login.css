@@ -1,0 +1,169 @@
+.login-section{
+    width: 100%;
+}
+.login-image{
+    /* width: 150%; */
+    height: 100vh;
+    width: 200%;
+}
+.login-section{
+    /* width: ; */
+    width: 100%;
+    
+}
+
+.login-form{
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+}
+
+.login-input{
+    /* width: 350px; */
+    /* border-radius: 5px; */
+    height: 50px;
+}
+
+.login-button{
+    font-size: larger;
+    /* width: 350px; */
+    width: 500px;
+    background-color: #ff6b01;
+    color: white;
+    font-weight: 600;
+}
+
+/* input fields design starts */
+
+.input-group-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.input-group-item label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #555;
+}
+
+.input-group-item input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1em;
+}
+
+/* icons code  */
+
+.registration-icons {
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ff6b01;
+    border-radius: 10px;
+    display: flex;           /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+  }
+
+  .login-forgotpassword{
+    margin-left: 250px;
+  }
+
+
+
+
+
+  /* Mobile view */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  .login-forgotpassword{
+    margin-left: 150px;
+  }
+
+    .login-form {
+        width: 90%;
+        margin: auto;
+    }
+
+    .login-image {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .login-button {
+        width: 100%;
+    }
+
+    .d-flex {
+        margin-left: 0 !important;
+    }
+    
+    .registration-icons {
+        width: 100px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ff6b01;
+        border-radius: 10px;
+        display: flex;           /* Use Flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center;     /* Center vertically */
+      }
+}
+
+/* Tablet view */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login-form {
+        width: 80%;
+        margin: auto;
+    }
+
+    .login-image {
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    .login-button {
+        width: 100%;
+    }
+    
+    .registration-icons {
+        width: 100px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ff6b01;
+        border-radius: 10px;
+        display: flex;           /* Use Flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center;     /* Center vertically */
+      }
+}
+
+
+
+
+
+
+/* #ff6b01   orange color code */
